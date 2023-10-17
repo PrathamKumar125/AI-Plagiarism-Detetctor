@@ -71,7 +71,7 @@ if text_area is not None:
             burstiness_score=calculate_burstiness(text_area)
             st.write("Burstiness Score: ",burstiness_score)
 
-            if perplexity>30000 and burstiness_score<0.2:
+            if perplexity>20000 and burstiness_score<0.25:
                 st.error("Text Analysis Result: AI Generated Content")
 
             else:
