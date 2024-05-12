@@ -1,0 +1,10 @@
+project: default
+source:
+  repoURL: 'https://github.com/PrathamKumar125/AI-Plagiarism-Detetctor'
+  path: kubernets
+  targetRevision: HEAD
+destination:
+  server: 'https://kubernetes.default.svc'
+  namespace: aiplagarismapp
+syncPolicy:
+  automated: {}
