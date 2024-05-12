@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: AI-Plagiarsm-Detector
+  name: ai-plagiarsm-detector
   namespace: aiplagarismapp
   labels:
     app.kubernetes.io/name: app
