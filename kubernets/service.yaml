@@ -4,7 +4,7 @@ metadata:
   name: app
   namespace: aiplagarismapp
 spec:
-  type: LoadBalancer
+  type: ClusterIP
   selector:
     app.kubernetes.io/name: app
   ports:
