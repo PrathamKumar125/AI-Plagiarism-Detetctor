@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: AI-Plagiarsm-Detector
-  namespace: argo-demo
+  namespace: aiplagarismapp
   labels:
     app.kubernetes.io/name: app
 spec:
