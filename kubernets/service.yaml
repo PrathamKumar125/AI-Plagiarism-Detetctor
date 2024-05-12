@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: app
+  name: ai-plagiarsm-detector
   namespace: aiplagarismapp
 spec:
   type: ClusterIP
