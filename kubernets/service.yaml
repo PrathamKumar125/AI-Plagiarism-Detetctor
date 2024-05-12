@@ -20,7 +20,7 @@ metadata:
   namespace: aiplagarismapp
 spec:
   ports:
-    - port: 8501
-      targetPort: 8501
+    - port: 80
+      targetPort: 80
   selector:
     app: ai-plagiarsm-detector
