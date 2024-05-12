@@ -1,17 +1,3 @@
-# apiVersion: v1
-# kind: Service
-# metadata:
-#   name: ai-plagiarsm-detector
-#   namespace: aiplagarismapp
-# spec:
-#   type: ClusterIP
-#   selector:
-#     app.kubernetes.io/name: app
-#   ports:
-#     - protocol: TCP
-#       port: 80
-#       targetPort: http
-
 
 apiVersion: v1
 kind: Service
