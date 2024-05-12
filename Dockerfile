@@ -1,27 +1,4 @@
 
-# FROM ubuntu:latest
-
-# WORKDIR /usr/app/src
-# ARG LANG="en_US.UTF-8"
-# RUN apt-get update\
-#     && apt-get install -y --no-install-recommends \
-#         apt-utils \
-#     # build-essential \
-#     # curl \
-#         locales \
-#         python3-pip \
-#         python3-yaml\
-#         rsyslog systemd systemd-cron sudo\
-#     && apt-get clean 
-
-# RUN pip3 install -r requirements.txt
-# RUN pip3 install streamlit
-# # EXPOSE 8501
-# COPY / ./
-
-
-# CMD ["streamlit", "run", "app.py"]
-
 FROM python:3.9-slim
 
 WORKDIR /app
