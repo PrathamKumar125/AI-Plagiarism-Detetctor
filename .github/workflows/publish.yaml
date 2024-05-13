@@ -13,6 +13,6 @@ username: ${{ github.actor }}
 password: ${{ secrets.GITHUB_TOKEN }}
 - name: Build the aiplagiarsmdetector Docker image
 run: |
-       # docker build . --tag ghcr.io/deselikem/hello-docker-gcr-demo:latest
+       docker build . --tag ghcr.io/deselikem/hello-docker-gcr-demo:latest
        # docker run ghcr.io/deselikem/hello-docker-gcr-demo:latest
-       docker push prathamkumars125/aiplagiarsmdetector:tagname
+       docker push ghcr.io/prathamkumars125/aiplagiarsmdetector:tagname
