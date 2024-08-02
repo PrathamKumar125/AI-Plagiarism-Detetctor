@@ -1,4 +1,11 @@
-# AI-Plagiarism-Detetctor
+# AI-Plagiarism-Detector
+<br>
+## Deployed Link: https://ai-plagiarism-detetctor-pkkdcztehsm8nbatveqddf.streamlit.app/
+![image](https://github.com/PrathamKumar125/AI-Plagiarism-Detetctor/assets/115283906/5967cb72-f843-431a-a609-c06be40e3147)
+<br>
+
+## Docker image: docker pull prathamkumars125/aiplagiarsmdetector:v1.0
+<br>
 
 # Dockerize an Application & push it to Dockerhub
 
@@ -134,6 +141,4 @@ Replace `your-service-name` with the name of your Kubernetes Service, `your-name
 <br>
 <br>
 
-## Deployed Link: https://ai-plagiarism-detetctor-pkkdcztehsm8nbatveqddf.streamlit.app/
-![image](https://github.com/PrathamKumar125/AI-Plagiarism-Detetctor/assets/115283906/5967cb72-f843-431a-a609-c06be40e3147)
 
