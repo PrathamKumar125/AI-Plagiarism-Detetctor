@@ -12,6 +12,7 @@ import string
 tokenizer=GPT2Tokenizer.from_pretrained('gpt2')
 model=GPT2LMHeadModel.from_pretrained('gpt2')
 nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('stopwords')
 
 def calculate_perplexity(text):
